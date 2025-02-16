@@ -1,0 +1,25 @@
+{
+    "name": "@tpgainz/undercover-lib",
+    "version": "1.0.0",
+    "description": "Déclaration des types communs pour le jeu Undercover",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+      "lib"
+    ],
+    "scripts": {
+      "build": "tsc"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "author": "Tpgainz",
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^4.x"
+    },
+    "dependencies": {
+      "zod": "^3.23.8"
+    }
+
+  }
